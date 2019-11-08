@@ -1,4 +1,4 @@
-This repository is for open access to source codes and data in the paper "Multitasking and the evolution of optimal clutch size in fluctuating environment", which is currently under revision in the process of publishing to "Ecology and Evolution" journal.
+This repository is for open access to source codes and data in the paper "Multitasking and the evolution of optimal clutch size in fluctuating environments", https://doi.org/10.1002/ece3.4364.
 
 1. In C_codes folder, since random number generators (dSfmt for uniform distribution random number, gen_Beta for Beta distribution random number) are included, please **DO NOT** change the relative location of these files. The main file is "clutch_season_length.c" in clutch_size folder, and "0508_xxx.c" in FigS2 folder. Execution commands are included in the files (in the form of comments, at the beginning of each file). The environment for simulation is clang-800.0.42.1 (compiler) in Mac OSX 10.12.3 (operating system). 
 
